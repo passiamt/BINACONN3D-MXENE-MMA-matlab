@@ -1,5 +1,10 @@
 # BINACONN3D-MXENES
 
+[![DOI](https://zenodo.org/badge/DOI/10.1234/zenodo.XYZ.svg)](https://doi.org/10.1234/zenodo.XYZ)
+
+[![Dataset DOI](https://img.shields.io/badge/Figshare-10.6084/m9.figshare.30696251-blue)](https://doi.org/10.6084/m9.figshare.30696251)
+
+
 MATLAB codes and data for the paper: M.-T. Passia, Y. Zhao, H. Wang, and S.A. Cummer, "Synthesis of broadband multilayer metamaterial absorbers based on spatially-variable 3D-printed structures and MXenes", Phys.Rev.Appl., DOI: https://doi.org/10.1103/8q6s-zg6y 
 See the paper for more information.
 
