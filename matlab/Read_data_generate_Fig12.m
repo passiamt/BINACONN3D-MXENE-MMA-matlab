@@ -28,3 +28,7 @@ A_continuous = readmatrix(fullfile(PROJECT_PATH,'comsol-files/Output_data/A_cont
 
 % Plot absorbance of continuous optimized MMA 
 hold on; plot(A_continuous(:,1), A_continuous(:,2), '-', 'Color',[0,0,0], 'LineWidth',2);
+
+xlabel('Frequency (GHz)')
+ylabel('Absorbance')
+legend('Optimized device of 2 materials', 'Optimized device of 4 materials','Optimized device of 7 materials', 'Optimized device of continuous profile')

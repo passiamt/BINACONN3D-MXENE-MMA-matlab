@@ -13,3 +13,7 @@ hold on; plot(Manufacturable_8(:,1), Manufacturable_8(:,2), '-', 'Color',[0.64,0
 Mat_7 = readmatrix(fullfile(PROJECT_PATH,'comsol-files/Output_data/A_7materials.txt'),'NumHeaderLines',5);
 
 hold on; plot(Mat_7(:,1), Mat_7(:,2), '-', 'Color',[0 0 0], 'LineWidth',2);
+
+xlabel('Frequency (GHz)')
+ylabel('Absorbance')
+legend('Manufacurable 8', '7 materials')

@@ -1,5 +1,7 @@
-%Multilayer MMA - Inverse Design by Topology Optimization
-%Read Dielectric Constant 
+% Reads the subcomponents of manufacturable MMA 8 and inserts thenm into a COMSOL Multiphysics file. 
+%The 'comsol-files/MMA_MXene_manufacturable8_done.mph' is ready to run. It will produce the 'comsol-files/Output_data/A_manufacturable_8.txt' with the absorbance of the manufacturable MMA 8.
+
+
 clear;
 
 Seed = [ ones(1,10);

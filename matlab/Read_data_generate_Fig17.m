@@ -18,7 +18,7 @@ F_shifted = fftshift(fft(A));
 F_shifted = reshape(F_shifted, 2000, 1);
 
 % Plot FFT and lower the peaks of the frequencies that correspond to the oscillations.
-figure(); plot(20.*log10(abs(F_shifted)))
+%figure(); plot(20.*log10(abs(F_shifted)))
 
 F_shifted(1018:1027,1) =  0;
 F_shifted(975:984,1) =  0;
@@ -28,7 +28,7 @@ A_reconstructed = ifft(ifftshift(F_shifted));
 
 
 % Read simulations file
-FEM = readmatrix('A_Manufacturable_8.txt','NumHeaderLines',5);
+FEM = readmatrix(fullfile(PROJECT_PATH,'comsol-files/Output_data/A_Manufacturable_8.txt'),'NumHeaderLines',5);
 
 % Plot Simulations and measurements
 figure();
