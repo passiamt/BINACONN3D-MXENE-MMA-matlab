@@ -18,23 +18,62 @@ identifiers:
     value: 10.1234/ZENODO-DOI
     description: Zenodo DOI
 repository-code: 'https://github.com/passiamt/BINACONN3D-MXENE-MMA-matlab'
-abstract: >-
-We introduce a systematic approach for enhancing the absorbance of multilayer metamaterial absorbers (MMA) by combining deep-subwavelength spatially variable dielectric substrates with the increased ohmic losses of MXene resonators. 
-We choose MXenes to form the MMA resonators as they are ultrathin conductive materials that offer higher ohmic losses than copper used in PCBs, alleviate the need for post-treatment required by metal inks, and are considerably thinner than conductive filaments.
-Previous multilayer MMAs in the literature typically involve structured metal layers with a uniform dielectric profile or pyramidal-shaped substrates.  The simplicity of the dielectric structure limits the design freedom and operational bandwidth of MMAs.
-In this work, we explore an alternative route to achieving increased design flexibility and enhanced absorption, by tailoring the dielectric substrates and consequently the underlying physics on a deep subwavelength scale. Advances in stereolithography (SLA) 3D-printing, allow the synthesis of suitable spatially variable 3D-printable dielectric structures.
-We inversely design the multilayer MMA by topology optimization,  with the MMA substrate cells assuming dielectric constant values in the continuous range between air and the 3D-printer's resin. 
-We develop a simple post-processing methodology, BINACONN3D,  that transforms the optimized non-manufacturable MMA into a manufacturable one, while preserving performance. 
-The BINACONN3D uses manufacturable configurations of a prescribed local air/resin composition to realize each designed dielectric material and accommodates detailed connectivity constraints across consecutive layers, to allow multilayer fabrication and assembly.  Our work demonstrates the advantages of combining inversely designed spatially variable dielectric structures with the increased ohmic losses of MXene resonators. We fabricate and experimentally characterize the synthesized MMA, with measurements in good agreement with the simulations.  Our approach paves the way for improving the performance of existing metamaterial devices by leveraging high-resolution spatially variable dielectric structures.
+abstract: >
+  We introduce a systematic approach for enhancing the
+  absorbance of multilayer metamaterial absorbers (MMA) by
+  combining deep-subwavelength spatially variable dielectric
+  substrates with the increased ohmic losses of MXene
+  resonators. 
+
+  We choose MXenes to form the MMA resonators as they are
+  ultrathin conductive materials that offer higher ohmic
+  losses than copper used in PCBs, alleviate the need for
+  post-treatment required by metal inks, and are
+  considerably thinner than conductive filaments.
+
+  Previous multilayer MMAs in the literature typically
+  involve structured metal layers with a uniform dielectric
+  profile or pyramidal-shaped substrates.  The simplicity of
+  the dielectric structure limits the design freedom and
+  operational bandwidth of MMAs.
+
+  In this work, we explore an alternative route to achieving
+  increased design flexibility and enhanced absorption, by
+  tailoring the dielectric substrates and consequently the
+  underlying physics on a deep subwavelength scale. Advances
+  in stereolithography (SLA) 3D-printing, allow the
+  synthesis of suitable spatially variable 3D-printable
+  dielectric structures.
+
+  We inversely design the multilayer MMA by topology
+  optimization,  with the MMA substrate cells assuming
+  dielectric constant values in the continuous range between
+  air and the 3D-printer's resin. 
+
+  We develop a simple post-processing methodology,
+  BINACONN3D,  that transforms the optimized
+  non-manufacturable MMA into a manufacturable one, while
+  preserving performance. 
+
+  The BINACONN3D uses manufacturable configurations of a
+  prescribed local air/resin composition to realize each
+  designed dielectric material and accommodates detailed
+  connectivity constraints across consecutive layers, to
+  allow multilayer fabrication and assembly.  Our work
+  demonstrates the advantages of combining inversely
+  designed spatially variable dielectric structures with the
+  increased ohmic losses of MXene resonators. We fabricate
+  and experimentally characterize the synthesized MMA, with
+  measurements in good agreement with the simulations.  Our
+  approach paves the way for improving the performance of
+  existing metamaterial devices by leveraging
+  high-resolution spatially variable dielectric structures.
 keywords:
-  - metamaterial absorbers
+  - ' metamaterial absorbers'
   - MXenes
   - 3D printing
   - spatially-variable dielectric structures
 license: CC-BY-4.0
-commit: '#adfef'
-version: '1.00'
-date-released: '2025-11-23'
 preferred-citation:
   type: article
   authors:
