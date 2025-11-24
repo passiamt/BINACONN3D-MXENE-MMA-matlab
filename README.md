@@ -1,6 +1,6 @@
 # BINACONN3D-MXENES
 
-[![DOI](https://zenodo.org/badge/DOI/10.1234/zenodo.XYZ.svg)](https://doi.org/10.1234/zenodo.XYZ)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17702958.svg)](https://doi.org/10.5281/zenodo.17702958)
 
 [![Dataset DOI](https://img.shields.io/badge/Figshare-10.6084/m9.figshare.30696251-blue)](https://doi.org/10.6084/m9.figshare.30696251)
 
@@ -31,7 +31,7 @@ In order to run the script
 ```bash 
 Read_and_simulate_binary_MMAs.m
 ```
-you need to download the mph (COMSOL) files from [link](...)
+you need to download the mph (COMSOL) files from [FigShare](https://doi.org/10.6084/m9.figshare.30696251)
 and store them with their original name under `comsol-files`, for example:
 
 ```bash
@@ -41,7 +41,7 @@ In order to also run the COMSOL Multiphysics .mph file
 ```bash
 Seven_materials_S_parameters.mph
 ```
-you also need to download the mph (COMSOL) files from [link](...)
+you also need to download the mph (COMSOL) files from [FigShare](https://doi.org/10.6084/m9.figshare.30696251)
 The .mph file `Seven_materials_S_parameters.mph` contains the FEM simulation of the optimized MMA with seven materials. The output of this file is `A_7materials.txt` in subfolder `comsol-files/Output_data`.
 
 ## Usage
