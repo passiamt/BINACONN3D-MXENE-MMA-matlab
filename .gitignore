@@ -3,3 +3,4 @@ comsol-files/MMA_MXene_manufacturable8.mph
 comsol-files/Seven_materials_S_parameters.mph
 .DS_Store
 matlab/BINACONN3D/Output_data_live/*.mat
+*.asv
